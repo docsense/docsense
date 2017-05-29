@@ -1,0 +1,8 @@
+core/core
+.idea
+*.swp
+Gododir/godobin*
+*.iml
+.vscode/
+config.json
+storage-core

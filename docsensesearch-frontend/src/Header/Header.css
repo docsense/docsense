@@ -1,0 +1,23 @@
+#headerLogoImg {
+    width:125%;
+    min-width: 800px;
+    /*
+    height: 25px;
+    */
+    min-height: 20px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.clickable {
+    cursor: pointer;
+}
+/*
+#headerCaption {
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    font-size: 24px;
+}
+*/

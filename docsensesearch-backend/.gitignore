@@ -1,0 +1,6 @@
+docsensesearch
+*.swp
+ignored/
+last_imported.txt
+*.log
+.idea/

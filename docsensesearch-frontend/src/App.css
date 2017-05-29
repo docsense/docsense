@@ -1,0 +1,132 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url('./Fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url('./Fonts/OpenSans-Bold.ttf');
+  font-weight: bold;
+}
+.my-container {
+  margin-bottom: 100px;
+}
+h1, h2, h3, h4, a, span, div {
+  font-family: myFirstFont;
+}
+a {
+  word-break: break-all;
+}
+.app-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+#appBodyImg {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 34px auto;
+  margin-top: 10vw;
+}
+@media screen and (min-width: 768px) {
+  #appBodyImg {
+    width: 40%;
+  }
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+.form-control-feedback {
+  cursor: pointer;
+  pointer-events: auto!important;
+}
+.search-title {
+  margin-bottom: 25px;
+  /*
+  border-bottom-color: #D3394C;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  */
+}
+.fa {
+  color: #D3394C;
+}
+.result-count-info {
+  margin-bottom: 25px;
+}
+.red-link {
+  color: #D3394C;
+}
+.red-link:hover, .red-link:focus {
+  color: #D3394C;
+  text-decoration: none;
+}
+.blue-link {
+  color: #00B1AA;
+}
+.blue-link:hover, .blue-link:focus {
+  color: #00B1AA;
+  text-decoration: none;
+}
+.text-smaller {
+  font-size: 75%;
+  color: grey;
+}
+/* ICON FONTS */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('Fonts/icomoon.eot?5ldcz7');
+  src:  url('Fonts/icomoon.eot?5ldcz7#iefix') format('embedded-opentype'),
+  url('Fonts/icomoon.ttf?5ldcz7') format('truetype'),
+  url('Fonts/icomoon.woff?5ldcz7') format('woff'),
+  url('Fonts/icomoon.svg?5ldcz7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wyszukiwanie_slowem:before {
+  content: "\e900";
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+.icon-wyszukiwanie_plikiem:before {
+  content: "\e901";
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+/* END */
+/* IE fix */
+input::-ms-clear {
+  display: none;
+}
+/* END */
